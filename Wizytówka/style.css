@@ -1,0 +1,465 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	color:black;
+	margin:0;
+}
+
+#firstPageHeader
+{
+	height: 100vh;
+	background-color:#eee;
+}
+#leftFirstPage
+{
+	width:19vw;
+	height:100vh;
+	float: left;
+}
+#dottedFirstPage
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	width:80vw;
+	height:100vh;
+	border-top-left-radius: 650px;
+	border-bottom-left-radius: 300px;
+	float: left;
+
+}
+#leftFirstPageTop
+{
+height:40vh;
+}
+#leftFirstPageBottom
+{
+height:60vh;
+width: 50vw;
+background: #eee;
+border-bottom-right-radius: -300px;
+}
+#logo
+{
+	height: 100px;
+	width: 100px;	
+	border-radius:100px;
+	background-image: url("logo.jpg");
+	background-size: 100% 100%;
+	position: absolute;
+	top:400px;
+	left:50vw;
+	transform: translate(-50%, 0);
+	animation-name: goInlogo;
+	animation-duration:2s;
+	animation-delay: 0s;
+}
+
+#JS
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #fe7f00;
+	background-size: 100% 100%;
+	position: absolute;
+	top:250px;
+	left:70vw;
+	transform: translate(-50%, 0);
+	animation-name: goInJS;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align:center;
+	padding-top: 20px;
+	font-size: 50px;
+	color:#ffffff;
+	font-family: 'Raleway', sans-serif;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+}
+#JS:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#omnie
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: rgba(0, 128, 0);
+	background-size: 100% 100%;
+	position: absolute;
+	top:550px;
+	left:34vw;
+	transform: translate(-50%, 0);
+	animation-name: goInomnie;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+#omnie:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#szkola
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: rgba(85, 85, 85);
+	background-size: 100% 100%;
+	position: absolute;
+	top:650px;
+	left:55vw;
+	transform: translate(-50%, 0);
+	animation-name: goInJS;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+#szkola:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#kontakt
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #cf2929;
+	background-size: 100% 100%;
+	position: absolute;
+	top:200px;
+	left:40vw;
+	transform: translate(-50%, 0);
+	animation-name: goInomnie;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+
+}
+#kontakt:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#facebook
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: rgba(59, 89, 152);
+	background-size: 100% 100%;
+	position: absolute;
+	top:480px;
+	left:65vw;
+	transform: translate(-50%, 0);
+	animation-name: goInfacebook;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+}
+#facebook:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#lookonmy
+{
+	font-size: 15px;
+}
+
+#lookonmyJS
+{
+	font-size: 25px;
+}
+
+#lookonmyJSProjekt
+{
+	font-size: 15px;
+}
+
+#podpis
+{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	position: absolute;
+	bottom: 100px;
+	left:50%;
+	transform:translate(-50%,0);
+	animation-name: goInPodpis;
+	animation-duration:3s;
+
+}
+
+/*==============================================================================*/
+/*==============================================================================*/
+/*==============================================================================*/
+#articleKontakt
+{
+	height: 100vh;
+	/*background-color:#ee8d2d;*/
+	background-color: rgba(238, 141, 45, 0.8);
+}
+
+#allArticleKontakt
+{
+
+margin-right: auto;
+margin-left: auto;
+}
+
+#allArticleKontakt>#kontaktPrawa>#numerTel>a
+{
+	text-decoration: none;
+	color:white;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	display:block;
+}
+
+#numerTel
+{
+	float:left;
+	text-align:center;
+	width: 500px;
+}
+#kontaktLewa
+{
+	padding-top:120px;
+	width:800px;
+	height:500px;
+	margin-left: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow: 0 0 20px black;
+}
+
+#kontaktPrawa
+{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width:1300px;
+	text-shadow: 0 0 20px black;
+}
+#opisKontakt
+{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-size: 40px;
+}
+
+#Email
+{
+	margin-left: 200px;
+	padding-top: 20px;
+	float:left;
+	text-align:center;
+	width: 600px;
+	color:white;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*==============================================================================*/
+/*==============================================================================*/
+/*==============================================================================*/
+
+#JSp
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #ff8c00;
+	background-size: 100% 100%;
+	position: fixed;
+	top:100px;
+	left:94vw;
+	transform: translate(-50%, 0);
+	animation-name: goInJSp;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align:center;
+	padding-top: 20px;
+	font-size: 50px;
+	color:#ffffff;
+	font-family: 'Raleway', sans-serif;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	display: none;
+
+}
+#JSp:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#omniep
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #008000;
+	background-size: 100% 100%;
+	position: fixed;
+	top:250px;
+	left:94vw;
+	transform: translate(-50%, 0);
+	animation-name: goInomniep;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+	display: none;
+}
+#omniep:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#szkolap
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #555555;
+	background-size: 100% 100%;
+	position: fixed;
+	top:400px;
+	left:94vw;
+	transform: translate(-50%, 0);
+	animation-name: goInszkolap;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+	display: none;
+}
+#szkolap:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#kontaktp
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #df1f1f;
+	background-size: 100% 100%;
+	position: fixed;
+	top:550px;
+	left:94vw;
+	transform: translate(-50%, 0);
+	animation-name: goInkontaktp;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+	display: none;
+
+}
+#kontaktp:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#facebookp
+{
+	height: 100px;
+	width: 100px;
+	border-radius:100px;
+	background-color: #3b5998;
+	background-size: 100% 100%;
+	position: fixed;
+	top:700px;
+	left:94vw;
+	transform: translate(-50%, 0);
+	animation-name: goInfacebookp;
+	animation-duration:2s;
+	animation-delay: 0s;
+	text-align: center;
+	transition-duration: 1s;
+	transform: matrix(1, 0, 0, 1, -50, 0);
+	cursor:pointer;
+	display: none;
+}
+#facebookp:hover
+{
+	transform: matrix(1.4, 0, 0, 1.4, -50, 0);
+}
+
+#lookonmyp
+{
+	font-size: 15px;
+}
+
+#lookonmyJSp
+{
+	font-size: 25px;
+}
+
+#lookonmyJSProjektp
+{
+	font-size: 15px;
+}
+
+/*==============================================================================*/
+/*==============================================================================*/
+/*==============================================================================*/
+
+#articleJSProjekt
+{
+	height: 100vh;
+	background-color: #222222;
+}
+
+#JSprojekt
+{
+	height:900px;
+}

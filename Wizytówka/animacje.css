@@ -1,0 +1,274 @@
+@keyframes goInlogo
+{
+	0%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	50%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+
+	100%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+}
+
+@keyframes goInJS
+{
+	0%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	25%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	75%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+
+	100%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+}
+
+@keyframes goInomnie
+{
+	0%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	40%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	90%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+
+	100%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+}
+
+@keyframes goInfacebook
+{
+	0%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	50%
+	{	
+
+		transform: matrix(0.001, 0, 0, 0.001, -50, 0);
+
+		/* matrix(a, -0.3882, 0.3882, a, x%, y%); */
+	}
+
+	100%
+	{
+		
+		transform: matrix(1, 0, 0, 1, -50, 0);
+	}
+
+}
+
+/*===============================================================================*/
+
+@keyframes goInomniep
+{
+	0%
+	{	
+		top: 550px;
+		left:34vw;
+	}
+	100%
+	{	
+		top: 250px;
+		left:94vw;
+	}
+}
+
+@keyframes goOutomniep
+{
+	0%
+	{	
+		top: 250px;
+		left:94vw;
+	}
+	100%
+	{	
+		top: 550px;
+		left: 34vw;
+	}
+}
+
+
+
+@keyframes goInJSp
+{
+	0%
+	{	
+		top: 250px;
+		left:70vw;
+	}
+	100%
+	{	
+		top: 100px;
+		left:94vw;
+	}
+}
+
+@keyframes goOutJSp
+{
+	0%
+	{	
+		top: 100px;
+		left:94vw;
+	}
+	100%
+	{	
+		top: 250px;
+		left:70vw;
+	}
+}
+
+
+@keyframes goInszkolap
+{
+	0%
+	{	
+		top: 650px;
+		left:55vw;
+	}
+	100%
+	{	
+		top: 400px;
+		left:94vw;
+	}
+}
+
+@keyframes goOutszkolap
+{
+	0%
+	{	
+		top: 400px;
+		left:94vw;
+	}
+	100%
+	{	
+		top: 650px;
+		left:55vw;
+	}
+}
+
+@keyframes goInkontaktp
+{
+	0%
+	{	
+		top: 200px;
+		left:40vw;
+	}
+	100%
+	{	
+		top: 550px;
+		left:94vw;
+	}
+}
+
+@keyframes goOutkontaktp
+{
+	0%
+	{	
+		top: 550px;
+		left:94vw;
+	}
+	100%
+	{	
+		top: 200px;
+		left:40vw;
+	}
+}
+
+
+
+@keyframes goInfacebookp
+{
+	0%
+	{	
+		top:480px;
+		left:65vw;
+	}
+	100%
+	{	
+		top: 700px;
+		left:94vw;
+	}
+}
+
+@keyframes goOutfacebookp
+{
+	0%
+	{	
+		top: 700px;
+		left:94vw;
+	}
+	100%
+	{	
+		top:480px;
+		left:65vw;
+	}
+}
+
+
+@keyframes goInPodpis
+{
+	0%
+	{
+		opacity: 0;
+	}
+	25%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
